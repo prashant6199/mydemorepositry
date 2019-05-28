@@ -39,3 +39,6 @@ $ git config --global user.name 'prashant'
 	 create mode 100644 index.html
 
  		 (it tell wt files are changed )
+
+10) $ touch .gitignore
+	(it ignores the files given in the .gitignore(for example index.html)
