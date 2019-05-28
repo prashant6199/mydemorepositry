@@ -1,0 +1,35 @@
+1) $touch abc.jsp  
+	(this cmd is used to create the file)
+
+2)$ git init
+	(Initialized empty Git repository in C:/Users/DPA53079/Desktop/GitSampleFolder/.git/)
+
+$ git config --global user.name 'prashant'
+3) $ git config --global user.email 'prashant@abc.com'
+                              (used to set username and email for git)
+
+4) $ git add index.html
+	(to add the edited file into the staging area)
+
+5)$ git status
+	On branch master
+	No commits yet
+	Changes to be committed:
+	  (use "git rm --cached <file>..." to unstage)
+ 	       new file:   index.html
+	Untracked files:
+	  (use "git add <file>..." to include in what will be committed)
+	        gitcmd.txt
+
+		(it tells that index.html file is in staging area and is ready to commit)
+
+6) $ git rm --cached index.html
+	(it removes the added file in the staging area)
+
+7) $ git add *.html
+	(it adds all the .html file into stating area)
+
+8) $ git add .
+	(it adds all the . files into staging area)
+
+9)
