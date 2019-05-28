@@ -32,4 +32,10 @@ $ git config --global user.name 'prashant'
 8) $ git add .
 	(it adds all the . files into staging area)
 
-9)
+9) $ git commit -m 'Changed the file data in gitcmd.yxy'
+	[master (root-commit) 7618ab5] Changed the file data in gitcmd.yxy
+	 2 files changed, 46 insertions(+)
+	 create mode 100644 gitcmd.txt
+	 create mode 100644 index.html
+
+ 		 (it tell wt files are changed )
