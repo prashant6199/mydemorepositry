@@ -42,3 +42,26 @@ $ git config --global user.name 'prashant'
 
 10) $ touch .gitignore
 	(it ignores the files given in the .gitignore(for example index.html)
+
+11) $ git branch mybranch
+(create a branch in the project)
+
+12) $ git checkout mybranch
+	Switched to branch 'mybranch'
+	M       .gitignore
+	M       gitcmd.txt
+
+		(it will switch to our created branch(not the master branch)
+
+13) $ git merge mybranch
+	Merge made by the 'recursive' strategy.
+	 .gitignore | 2 +-
+	 gitcmd.txt | 3 +++
+ 	index.html | 2 ++
+	 login.html | 0
+ 	4 files changed, 6 insertions(+), 1 deletion(-)
+	 create mode 100644 login.html
+
+(it will open new window in that enter "i" and type the message and press ESC, colon and wq keyword
+, it will merge the content of mybranch to the master branch)
+
